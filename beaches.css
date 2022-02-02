@@ -1,0 +1,46 @@
+body {
+    text-align: center;
+    background-image: url("https://www.beach-backgrounds.com/wallpapers/fun-on-the-playful-ocean-waves-wallpaper-854x480-433.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+p{
+    font-family: 'Space Mono', monospace;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+ul {
+    text-align: center;
+    list-style-position: inside;
+    text-shadow: 2px 2px 5px blue;
+    font-family: 'Architects Daughter', cursive;
+font-family: 'Space Mono', monospace;
+font-family: 'Ubuntu', sans-serif;
+  }
+
+  ul {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    75% {
+      font-size: 300%;
+      margin-left: 25%;
+      width: 150%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+
